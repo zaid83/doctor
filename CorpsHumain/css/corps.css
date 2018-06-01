@@ -1,0 +1,104 @@
+
+/* La video en back*/
+
+video#bgvid {
+  position:absolute; left: 0; top:0;
+
+
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+}
+
+/* body */
+
+
+body{
+
+	background-color:cornflowerblue;
+    background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	
+}
+
+/* Le titre */
+
+#titredusite{
+	background-color: black;
+	text-align:center;
+	padding:20px;
+}
+
+
+/* cercle sur le corps */
+
+.circlebras {
+	position:absolute; left:34%; top:19%;
+	z-index:100;
+	padding:0px;
+	cursor:pointer;
+}
+
+.circletete {
+	position:absolute; left:20%; top:6%;
+	z-index:100;
+	cursor:pointer;
+}
+
+.circlejambe {
+	position:absolute; left:32%; top:74%;
+	z-index:100;
+	cursor:pointer;
+}
+
+.circleabdos {
+	position:absolute; left:18%; top:39%;
+	z-index:100;
+	cursor:pointer;
+}
+
+
+
+
+#imgcorps{
+	 
+		z-index: -80;
+
+
+}
+
+/* colonne texte */
+
+#Textexp 
+{
+	border:2px solid white;
+	color:initial;
+	background-color:rgba(208,233,232,0.8);
+	text-shadow:1px 0px 1px white;
+	padding:30px;
+	text-align:justify;
+}
+
+
+h4
+{
+	color:sandybrown;
+}
+
+p {
+	font-family: 'Arvo', serif;
+}
+
+
+
+/* footer */
+
+footer{
+
+	margin-top:100px;
+	padding:10px 10px 40px 30px;
+
+	color:white;
+	background-color:black;
+}
