@@ -3,11 +3,10 @@
 
 video#bgvid {
   position:absolute; left: 0; top:0;
-
-
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background-size: cover;
+ background-size: cover;
+  min-height:100%;
+  min-width: 100%; 
+z-index: -100;
 }
 
 /* body */
@@ -19,7 +18,11 @@ body{
     background-repeat: no-repeat;
 	background-size: cover;
 	color:white;
+
 	
+}
+.content {
+	min-height: 100vh;
 }
 
 /* Le titre */
@@ -34,38 +37,39 @@ body{
 /* cercle sur le corps */
 
 .circlebras {
-	position:absolute; left:34%; top:19%;
+	position:absolute; left:30%; top:19%;
 	z-index:100;
 	padding:0px;
 	cursor:pointer;
 }
 
 .circletete {
-	position:absolute; left:20%; top:6%;
+	position:absolute; left:19%; top:6%;
 	z-index:100;
 	cursor:pointer;
 }
 
 .circlejambe {
-	position:absolute; left:32%; top:74%;
-	z-index:100;
+	position:absolute; left:28%; top:74%;
 	cursor:pointer;
 }
 
 .circleabdos {
-	position:absolute; left:18%; top:39%;
-	z-index:100;
+	position:absolute; left:15%; top:39%;
 	cursor:pointer;
 }
 
-
-
+	
+}
 
 #imgcorps{
-	 
+	  position:relative;
 		z-index: -80;
 
 
+}
+#ImageDuCorps {
+	position:relative;
 }
 
 /* colonne texte */
@@ -92,13 +96,3 @@ p {
 
 
 
-/* footer */
-
-footer{
-
-	margin-top:100px;
-	padding:10px 10px 20px 30px;
-
-	color:white;
-	background-color:black;
-}
